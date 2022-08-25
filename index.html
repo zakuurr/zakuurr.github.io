@@ -1,1 +1,512 @@
-Hello World
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="asset/css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <title>framewory</title>
+</head>
+
+<body>
+    <header>
+        <nav class="py-3">
+            <div class="container">
+                <div class="left-nav">
+                    <div class="logo">
+                        <img src="asset/img/logo.svg" alt="" srcset="">
+                    </div>
+                    <div class="divider d-none d-lg-block">
+
+                    </div>
+                    <ul class="d-none d-lg-flex">
+                        <li><a href="">Shop</a></li>
+                        <li><a href="">Art Library</a></li>
+                        <li><a href="">Art Partners</a></li>
+                        <li><a href="">My Frame</a></li>
+                    </ul>
+                </div>
+
+
+
+                <div class="right-nav d-none d-lg-flex">
+                    <button class="button-bordered d-flex me-4">
+                        <img src="asset/img/icon/global.svg" width="20px" class="d-block me-2" alt="" srcset="">
+                        English</button>
+                    <img src="asset/img/icon/bag.svg" class="d-block ml-4" width="30px" alt="" srcset="">
+                    <div class="divider"></div>
+                    <button class="button-primary">Login</button>
+                </div>
+
+                <div class="right-nav d-block d-lg-none">
+                    <button class="p-1 bg-none" onclick="openMenu()" id="manuToggle">
+                        <img src="asset/img/icon/menu.svg" width="30px" alt="">
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="responsive-nav d-block d-lg-none">
+            <div class="container d-flex flex-column">
+                <div>
+                    <a href="">Shop</a>
+                </div>
+                <div class="mt-3">
+                    <a href="">Art Library</a>
+                </div>
+                <div class="mt-3">
+                    <a href="">Art Partners</a>
+                </div>
+                <div class="mt-3">
+                    <a href="">My Frame</a>
+                </div>
+
+                <div class="mt-3 d-flex">
+                    <button class="button-bordered d-flex me-4">
+                        <img src="asset/img/icon/global.svg" width="20px" class="d-block me-2" alt="" srcset="">
+                        English
+                    </button>
+                    <img src="asset/img/icon/bag.svg" class="d-block ml-4" width="30px" alt="" srcset="">
+                </div>
+                <hr class="mt-4" style="background: var(--colorGray);">
+                <div class="mt-3">
+
+                    <button class="button-primary mx-auto d-block login-navbar">Login</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="hero">
+            <br class="d-none d-md-block">
+            <br class="d-none d-md-block">
+            <div class="container ">
+                <div class="row my-5">
+                    <div class="col-lg-6">
+                        <h1 style="max-width: 500px;">Framemory <span class="txt-primary">NFT (Non-fungible
+                                Token)</span> frame</h1>
+                    </div>
+                    <div class="col-lg-6">
+                        <br class="d-block d-lg-none">
+                        <p class="mt-3 txt-gray" style="max-width: 400px;">The best way to display Crypto NFT art on a
+                            dedicated
+                            digital photo
+                            frame, with Framemory
+                            NFT-frame you can explore your
+                            NFT art into your home or workplace, whether it be digital art, virtual worlds, trading
+                            cards, collectibles, sports or
+                            video games
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <div class="hero-image mt-5">
+                    <div class="hero-slick-box">
+                        <div class="hero-slick-item slick-item1"></div>
+                    </div>
+                    <div class="hero-slick-box">
+                        <div class="hero-slick-item slick-item2"></div>
+                    </div>
+                    <div class="hero-slick-box">
+                        <div class="hero-slick-item slick-item3"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="evolving special-margin">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="artframe">
+                            <div class="artframe-box">
+                                <img src="asset/img/slick/artframe1.png" height="300px" alt="" srcset="">
+                            </div>
+                            <div class="artframe-box">
+                                <img src="asset/img/slick/artframe2.png" height="300px" alt="" srcset="">
+                            </div>
+                            <div class="artframe-box">
+                                <img src="asset/img/slick/artframe3.png" height="300px" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h1>Experience <span class="txt-primary">Art Frame</span> Evolving</h1>
+                        <p>An art photograph without a frame is like <br> a soul without a body</p>
+                        <p class="txt-bold txt-primary">Van Gogh</p>
+
+                        <section class="user my-4">
+                            <div class="d-flex">
+                                <img src="asset/img/user/user1.png" width="50px" alt="">
+                                <img src="asset/img/user/user2.png" style="margin-left: -16px;" width="50px" alt="">
+                                <img src="asset/img/user/user3.png" style="margin-left: -16px;" width="50px" alt="">
+                                <img src="asset/img/user/user4.png" style="margin-left: -16px;" width="50px" alt="">
+                                <img src="asset/img/user/user5.png" style="margin-left: -16px;" width="50px" alt="">
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="display-ntfs special-margin">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1><span class="txt-primary">Display</span> your</h1>
+                        <p>NFTs on Frame in just 3 easy steps</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="video-box">
+                            <img src="asset/img/youtube.png" alt="" srcset="">
+                            <div class="player">
+                                <img src="asset/img/icon/play.svg" class="player-icon" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="universal special-margin">
+            <div class="container">
+                <h1>Universal <span class="txt-primary">NFT</span> Frame</h1>
+                <p class="mt-4 txt-gray">From Ethereum to Tezos platforms, from Metamask to Galleon wallets, from
+                    OpenSea
+                    to Rarible marketplace, you can
+                    universal and seamless display your NFT arts to one or multiple Framemory NFT-frames remotely</p>
+
+                <div class="clock-gallery mb-5">
+                    <div class="clock-gallery-item">
+                        <img src="asset/img/clock/clock1.png" alt="" srcset="">
+                    </div>
+                    <div class="clock-gallery-item">
+                        <img src="asset/img/clock/clock2.png" alt="" srcset="">
+                    </div>
+                    <div class="clock-gallery-item">
+                        <img src="asset/img/clock/clock3.png" alt="" srcset="">
+                    </div>
+                    <div class="clock-gallery-item">
+                        <img src="asset/img/clock/clock4.png" alt="" srcset="">
+                    </div>
+                    <div class="clock-gallery-item">
+                        <img src="asset/img/clock/clock5.png" alt="" srcset="">
+                    </div>
+                    <div class="clock-gallery-item">
+                        <img src="asset/img/clock/clock6.png" alt="" srcset="">
+                    </div>
+
+                    <div class="clock-gallery-item">
+                        <img src="asset/img/clock/clock7.png" alt="" srcset="">
+                    </div>
+
+                    <div class="clock-gallery-item">
+                        <img src="asset/img/clock/clock8.png" alt="" srcset="">
+                    </div>
+
+                </div>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+
+        <div class="legitimacy special-margin">
+            <div class="container">
+                <div class="flex-legitimacy">
+                    <div class="item-flex-legitimacy-left d-flex align-items-center justify-content-center">
+                        <div style="max-width: 500px;">
+                            <h1>Design for Legitimacy</h1>
+                            <br>
+                            <p class="txt-gray">The Framemory digital-asset rights system uses web3 wallet technology to
+                                secure any NFT
+                                that
+                                is displayed is verifiably
+                                owned by the user. Access your NFT assets by logging into your wallet via Metamask, or
+                                WalletConnect and more</p>
+                            <br>
+                            <button class="button-primary">Login</button>
+                        </div>
+                    </div>
+                    <div class="item-flex-legitimacy-right">
+                        <img src="asset/img/legitimacy.png" width="100%" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="login-system">
+            <div class="container">
+                <h1 class="text-center">NFT-frame Web <span class="txt-primary">Login System</span></h1>
+
+                <p class="text-center txt-gray">Display digital NFTs to any Framemory NFT-frame and set the screen
+                    �ll/�t,
+                    background color,
+                    metadate, border width,
+                    orientation and more remotely on PC, iPhone or Android phones</p>
+
+                <br>
+                <div class="login-image-frame">
+                    <img src="asset/img/login-system/frame1.png" alt="" srcset="">
+                    <img src="asset/img/login-system/frame2.png" alt="" srcset="">
+                    <img src="asset/img/login-system/frame3.png" alt="" srcset="">
+                    <img src="asset/img/login-system/frame4.png" alt="" srcset="">
+                    <img src="asset/img/login-system/frame5.png" alt="" srcset="">
+                    <img src="asset/img/login-system/frame6.png" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+
+        <div class="aesthetic-design special-margin">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-md-5">
+                        <div class="aesthetic-gallery">
+                            <div class="aesthetic-item">
+                                <img src="asset/img/aesthethic/item1.png" width="100%" alt="" srcset="">
+                            </div>
+                            <div class="aesthetic-item">
+                                <img src="asset/img/aesthethic/item2.png" width="100%" alt="" srcset="">
+                            </div>
+                            <div class="aesthetic-item">
+                                <img src="asset/img/aesthethic/item3.png" width="100%" alt="" srcset="">
+                            </div>
+                            <div class="aesthetic-item">
+                                <img src="asset/img/aesthethic/item4.png" width="100%" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex align-items-center">
+                        <div>
+                            <br class="d-block d-md-none">
+                            <h1>
+                                Aesthetic <span class="txt-primary">Minimalist Design</span>
+                            </h1>
+                            <br>
+                            <p style="max-width: 500px;" class="txt-gray">Minimalist works of art that "less is more"
+                                with crystal
+                                acrylic design a vivid,
+                                anti-glare
+                                displays specially made for
+                                digital art</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="style-matters special-margin ">
+            <div class="container">
+                <div class="row justify-content-between flex-column-reverse flex-md-row">
+                    <div class="col-md-6 d-flex align-items-center">
+                        <div>
+                            <br class="d-block d-md-none">
+                            <h1>
+                                Your <span class="txt-primary">Style</span> Matters
+                            </h1>
+                            <br>
+                            <p style="max-width: 500px;" class="txt-gray">Minimalist works of art that "less is more"
+                                with crystal
+                                acrylic design a vivid,
+                                anti-glare
+                                displays specially made for
+                                digital art</p>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="style-matters-gallery">
+                            <div class="style-matters-item">
+                                <img src="asset/img/style-matter/frame1.png" width="100%" class="p-2 rounded-3" alt=""
+                                    srcset="">
+                            </div>
+                            <div class="style-matters-item">
+                                <img src="asset/img/style-matter/frame2.png" width="100%" class="p-2 rounded-3" alt=""
+                                    srcset="">
+                            </div>
+                            <div class="style-matters-item">
+                                <img src="asset/img/style-matter/frame3.png" width="100%" class="p-2 rounded-3" alt=""
+                                    srcset="">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="seen py-5">
+            <div class="container">
+                <h1 class="text-center text-white"><span class="txt-primary">As Seen</span> on</h1>
+                <br>
+                <p class="text-center txt-gray">Framemory 5" - 21.5" NFT-frames display your NFTs from wallet to wall,
+                    from <br>
+                    desktop to desk, from virtuality to verity</p>
+
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-6 col-md-2 col-sm-6">
+                        <img src="asset/img/partner/wired.png" width="100%" style="max-width: 160px;" alt="" srcset="">
+                    </div>
+                    <div class="col-6 col-md-2 col-sm-6">
+                        <img src="asset/img/partner/forbes.png" width="100%" style="max-width: 160px;" alt="" srcset="">
+                    </div>
+                    <div class="col-6 col-md-2 col-sm-6">
+                        <img src="asset/img/partner/time.png" width="100%" style="max-width: 160px;" alt="" srcset="">
+                    </div>
+                    <div class="col-6 col-md-2 col-sm-6">
+                        <img src="asset/img/partner/wired.png" width="100%" style="max-width: 160px;" alt="" srcset="">
+                    </div>
+                    <div class="col-6 col-md-2 col-sm-6">
+                        <img src="asset/img/partner/forbes.png" width="100%" style="max-width: 160px;" alt="" srcset="">
+                    </div>
+                    <div class="col-6 col-md-2 col-sm-6">
+                        <img src="asset/img/partner/time.png" width="100%" style="max-width: 160px;" alt="" srcset="">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <div class="row">
+                <div class="col-md-5 col-sm-12 position-relative">
+                    <div id="map"></div>
+                </div>
+                <div class="col-md-7 col-sm-12 special-margin my-4 my-md-0">
+                    <div class=" p-5">
+                        <h1>Contact Form</h1>
+                        <form action="" class="contact">
+                            <div class="d-flex flex-column mt-3">
+                                <label for="name">Name</label>
+                                <input type="text" onfocus="focus(this)" name="name" id="name">
+                            </div>
+                            <div class="d-flex flex-column mt-3">
+                                <label for="email">Email</label>
+                                <input type="text" onfocus="focus(this)" name="email" id="email">
+                            </div>
+                            <div class="d-flex flex-column mt-3">
+                                <label for="message">Message</label>
+                                <input type="text" onfocus="focus(this)" name="message" id="message">
+                            </div>
+
+                            <br>
+                            <button class="button-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="py-4">
+        <div class="container">
+            <div class="row justify-content-md-between">
+                <div class="col-md-3">
+                    <div class="logo mt-4">
+                        <img src="asset/img/logo.svg" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <br class="d-block d-md-none">
+                    <div class="d-flex mt-4 flex-column flex-lg-row align-items-lg-center">
+                        <p class="text-white txt-big mb-lg-0 me-3" style="white-space: nowrap; height: fit-content;">
+                            Ready
+                            to get started?</p>
+                        <button class="button-primary">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <p class="txt-big text-white">Subscribe to our
+                        newsletter</p>
+                    <form action="" class="subscribe-form">
+                        <input type="text" name="email" id="email" placeholder="Email Address">
+                        <button>
+                            <img src="asset/img/icon/arrow-right.svg" width="100%" alt="" srcset="">
+                        </button>
+                    </form>
+                </div>
+                <div class="col-md-2 col-6 mt-4">
+                    <p class="txt-medium mb-0 text-white">Services</p>
+                    <div class="d-flex flex-column mt-3">
+                        <p class="txt-gray">Email Marketing</p>
+                        <p class="txt-gray">Campaigns</p>
+                        <p class="txt-gray">Branding</p>
+                        <p class="txt-gray">Offline</p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-6 mt-4">
+                    <p class="txt-medium mb-0 text-white">About</p>
+                    <div class="d-flex flex-column mt-3">
+                        <p class="txt-gray">Our Story</p>
+                        <p class="txt-gray">Benefits</p>
+                        <p class="txt-gray">Team</p>
+                        <p class="txt-gray">Careers</p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 mt-4">
+                    <p class="txt-medium mb-0 text-white">Helps</p>
+                    <div class="d-flex flex-column mt-3">
+                        <p class="txt-gray">FAQs</p>
+                        <p class="txt-gray">Contact Us</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-2">
+                    <p class="text-white">Terms & Conditions</p>
+                </div>
+                <div class="col-md-2">
+                    <p class="text-white">Privacy Policy</p>
+                </div>
+                <div class="col-md-1 ms-lg-auto d-flex justify-content-between">
+                    <a href="" class="text-white">
+                        <i class="fab fa-facebook-f text-white txt-medium"></i>
+                    </a>
+                    <a href="" class="text-white">
+                        <i class="fab fa-twitter text-white txt-medium"></i>
+                    </a>
+                    <a href="" class="text-white">
+                        <i class="fab fa-instagram text-white txt-medium"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap&libraries=&v=weekly" async></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js"
+        integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="asset/js/dist/masonryan.min.js"></script>
+    <script src="asset/js/index.js"></script>
+</body>
+
+</html>
