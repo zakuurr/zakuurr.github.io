@@ -5,508 +5,639 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Indonesian Web Developer , Binmas Online System Developer . Satria is a Binmas Online System Developer , who created report app for local police (called bhabin) in Indonesia . Reactjs Developer.">
+    <meta name="theme-color" content="#1f5ed1">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="img/icon72x72.png">
+    <link rel="apple-touch-icon" href="img/icon96x96.png">
+    <link rel="apple-touch-icon" href="img/icon128x128.png">
+    <link rel="apple-touch-icon" href="img/icon144x144.png">
+    <link rel="apple-touch-icon" href="img/icon152x152.png">
+    <link rel="apple-touch-icon" href="img/icon192x192.png">
+    <link rel="apple-touch-icon" href="img/icon384x384.png">
+    <link rel="apple-touch-icon" href="img/icon512x512.png">
+    <link rel="icon" href="img/favicon.ico">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-    <link rel="stylesheet" href="asset/css/main.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <title>framewory</title>
+    <title>Portfolio</title>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8579790092809420"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header>
-        <nav class="py-3">
-            <div class="container">
-                <div class="left-nav">
-                    <div class="logo">
-                        <img src="asset/img/logo.svg" alt="" srcset="">
-                    </div>
-                    <div class="divider d-none d-lg-block">
 
-                    </div>
-                    <ul class="d-none d-lg-flex">
-                        <li><a href="">Shop</a></li>
-                        <li><a href="">Art Library</a></li>
-                        <li><a href="">Art Partners</a></li>
-                        <li><a href="">My Frame</a></li>
-                    </ul>
-                </div>
-
-
-
-                <div class="right-nav d-none d-lg-flex">
-                    <button class="button-bordered d-flex me-4">
-                        <img src="asset/img/icon/global.svg" width="20px" class="d-block me-2" alt="" srcset="">
-                        English</button>
-                    <img src="asset/img/icon/bag.svg" class="d-block ml-4" width="30px" alt="" srcset="">
-                    <div class="divider"></div>
-                    <button class="button-primary">Login</button>
-                </div>
-
-                <div class="right-nav d-block d-lg-none">
-                    <button class="p-1 bg-none" onclick="openMenu()" id="manuToggle">
-                        <img src="asset/img/icon/menu.svg" width="30px" alt="">
-                    </button>
-                </div>
+    <nav class="d-none d-md-block dark-item">
+        <div class="container px-3 d-flex justify-content-between align-items-center">
+            <div class="navbar-logo">
+                <span style="font-weight: 500;">Satria</span>
             </div>
-        </nav>
 
-        <div class="responsive-nav d-block d-lg-none">
-            <div class="container d-flex flex-column">
-                <div>
-                    <a href="">Shop</a>
-                </div>
-                <div class="mt-3">
-                    <a href="">Art Library</a>
-                </div>
-                <div class="mt-3">
-                    <a href="">Art Partners</a>
-                </div>
-                <div class="mt-3">
-                    <a href="">My Frame</a>
-                </div>
-
-                <div class="mt-3 d-flex">
-                    <button class="button-bordered d-flex me-4">
-                        <img src="asset/img/icon/global.svg" width="20px" class="d-block me-2" alt="" srcset="">
-                        English
-                    </button>
-                    <img src="asset/img/icon/bag.svg" class="d-block ml-4" width="30px" alt="" srcset="">
-                </div>
-                <hr class="mt-4" style="background: var(--colorGray);">
-                <div class="mt-3">
-
-                    <button class="button-primary mx-auto d-block login-navbar">Login</button>
-                </div>
+            <div class="navbar-left dark-item">
+                <ul class="d-flex justify-content-md-around align-items-center mb-0">
+                    <li class="home-nav"><a href="#">Home</a></li>
+                    <li class="about-nav"><a href="#about">About Me</a></li>
+                    <li class="skill-nav"><a href="#skill">My Skill</a></li>
+                    <li class="portfolio-nav"><a href="#portfolio">Portfolio</a></li>
+                    <li class="service-nav"><a href="#service">Service</a></li>
+                </ul>
             </div>
         </div>
-    </header>
+    </nav>
 
+    <div class="side-icon dark-mode dark-item" onclick="darkChange(this)">
+        <i class="far fa-moon"></i>
+    </div>
 
     <main>
-        <div class="hero">
-            <br class="d-none d-md-block">
-            <br class="d-none d-md-block">
-            <div class="container ">
-                <div class="row my-5">
-                    <div class="col-lg-6">
-                        <h1 style="max-width: 500px;">Framemory <span class="txt-primary">NFT (Non-fungible
-                                Token)</span> frame</h1>
-                    </div>
-                    <div class="col-lg-6">
-                        <br class="d-block d-lg-none">
-                        <p class="mt-3 txt-gray" style="max-width: 400px;">The best way to display Crypto NFT art on a
-                            dedicated
-                            digital photo
-                            frame, with Framemory
-                            NFT-frame you can explore your
-                            NFT art into your home or workplace, whether it be digital art, virtual worlds, trading
-                            cards, collectibles, sports or
-                            video games
+        <div class="hero py-5 special-margin" id="hero">
+            <div class="container px-3">
+
+                <div class="main-row-hero">
+                    <div class="hero-paragraph">
+                        <h2>
+                            Hello , I am <span class="baffle">Satria</span>
+                        </h2>
+                        <p class="font-big txt-dark-blue dark-item">
+                            Frontend Developer
                         </p>
+                        <p class="font-normal txt-gray mt-4 dark-item">
+                            Experienced in website development . <br class="d-md-block d-none"> Focusing at Frontend
+                            Development that using Reactjs for frontend library
+                        </p>
+
+                        <button class="button button-blue mt-3" onclick="redirectWa()"><i
+                                class="fas fa-rocket me-2"></i> Hire Me</button>
+
                     </div>
-                </div>
-                <br>
-                <div class="hero-image mt-5">
-                    <div class="hero-slick-box">
-                        <div class="hero-slick-item slick-item1"></div>
-                    </div>
-                    <div class="hero-slick-box">
-                        <div class="hero-slick-item slick-item2"></div>
-                    </div>
-                    <div class="hero-slick-box">
-                        <div class="hero-slick-item slick-item3"></div>
+
+                    <div class="image-container ">
+                        <img src="img/me.png" alt="satria" height="auto" width="100%">
                     </div>
 
                 </div>
             </div>
         </div>
 
-        <div class="evolving special-margin">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="artframe">
-                            <div class="artframe-box">
-                                <img src="asset/img/slick/artframe1.png" height="300px" alt="" srcset="">
-                            </div>
-                            <div class="artframe-box">
-                                <img src="asset/img/slick/artframe2.png" height="300px" alt="" srcset="">
-                            </div>
-                            <div class="artframe-box">
-                                <img src="asset/img/slick/artframe3.png" height="300px" alt="" srcset="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <h1>Experience <span class="txt-primary">Art Frame</span> Evolving</h1>
-                        <p>An art photograph without a frame is like <br> a soul without a body</p>
-                        <p class="txt-bold txt-primary">Van Gogh</p>
+        <br class="d-none d-md-block">
 
-                        <section class="user my-4">
-                            <div class="d-flex">
-                                <img src="asset/img/user/user1.png" width="50px" alt="">
-                                <img src="asset/img/user/user2.png" style="margin-left: -16px;" width="50px" alt="">
-                                <img src="asset/img/user/user3.png" style="margin-left: -16px;" width="50px" alt="">
-                                <img src="asset/img/user/user4.png" style="margin-left: -16px;" width="50px" alt="">
-                                <img src="asset/img/user/user5.png" style="margin-left: -16px;" width="50px" alt="">
-                            </div>
-                        </section>
-                    </div>
+
+
+        <div class="py-5 special-margin">
+            <!-- <h2 class=" text-center">Performance</h2> -->
+            <div class="row justify-content-center ">
+                <div class="col-md-2 mt-5">
+                    <h2 class="text-center font-monserrat">03</h2>
+                    <p class="text-center font-normal">Projects <br> Clear</p>
+                </div>
+                <div class="col-md-2 mt-5">
+                    <h2 class="text-center font-monserrat">06</h2>
+                    <p class="text-center font-normal">Months <br> Experienced</p>
+                </div>
+                <div class="col-md-2 mt-5">
+                    <h2 class="text-center font-monserrat">
+                        01
+                    </h2>
+                    <p class="text-center font-normal">Companies <br> Worked</p>
                 </div>
             </div>
         </div>
+        <br>
 
-        <div class="display-ntfs special-margin">
+        <div class="about py-4 special-margin" id="about">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <h1><span class="txt-primary">Display</span> your</h1>
-                        <p>NFTs on Frame in just 3 easy steps</p>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="video-box">
-                            <img src="asset/img/youtube.png" alt="" srcset="">
-                            <div class="player">
-                                <img src="asset/img/icon/play.svg" class="player-icon" alt="" srcset="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                <h2 class="text-center">About Me</h2>
+                <p class="text-center txt-gray dark-item">My Profile</p>
 
-        <div class="universal special-margin">
-            <div class="container">
-                <h1>Universal <span class="txt-primary">NFT</span> Frame</h1>
-                <p class="mt-4 txt-gray">From Ethereum to Tezos platforms, from Metamask to Galleon wallets, from
-                    OpenSea
-                    to Rarible marketplace, you can
-                    universal and seamless display your NFT arts to one or multiple Framemory NFT-frames remotely</p>
-
-                <div class="clock-gallery mb-5">
-                    <div class="clock-gallery-item">
-                        <img src="asset/img/clock/clock1.png" alt="" srcset="">
-                    </div>
-                    <div class="clock-gallery-item">
-                        <img src="asset/img/clock/clock2.png" alt="" srcset="">
-                    </div>
-                    <div class="clock-gallery-item">
-                        <img src="asset/img/clock/clock3.png" alt="" srcset="">
-                    </div>
-                    <div class="clock-gallery-item">
-                        <img src="asset/img/clock/clock4.png" alt="" srcset="">
-                    </div>
-                    <div class="clock-gallery-item">
-                        <img src="asset/img/clock/clock5.png" alt="" srcset="">
-                    </div>
-                    <div class="clock-gallery-item">
-                        <img src="asset/img/clock/clock6.png" alt="" srcset="">
-                    </div>
-
-                    <div class="clock-gallery-item">
-                        <img src="asset/img/clock/clock7.png" alt="" srcset="">
-                    </div>
-
-                    <div class="clock-gallery-item">
-                        <img src="asset/img/clock/clock8.png" alt="" srcset="">
-                    </div>
-
-                </div>
-                <br>
-                <br>
-                <br>
-            </div>
-        </div>
-
-        <div class="legitimacy special-margin">
-            <div class="container">
-                <div class="flex-legitimacy">
-                    <div class="item-flex-legitimacy-left d-flex align-items-center justify-content-center">
-                        <div style="max-width: 500px;">
-                            <h1>Design for Legitimacy</h1>
-                            <br>
-                            <p class="txt-gray">The Framemory digital-asset rights system uses web3 wallet technology to
-                                secure any NFT
-                                that
-                                is displayed is verifiably
-                                owned by the user. Access your NFT assets by logging into your wallet via Metamask, or
-                                WalletConnect and more</p>
-                            <br>
-                            <button class="button-primary">Login</button>
-                        </div>
-                    </div>
-                    <div class="item-flex-legitimacy-right">
-                        <img src="asset/img/legitimacy.png" width="100%" alt="" srcset="">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="login-system">
-            <div class="container">
-                <h1 class="text-center">NFT-frame Web <span class="txt-primary">Login System</span></h1>
-
-                <p class="text-center txt-gray">Display digital NFTs to any Framemory NFT-frame and set the screen
-                    �ll/�t,
-                    background color,
-                    metadate, border width,
-                    orientation and more remotely on PC, iPhone or Android phones</p>
-
-                <br>
-                <div class="login-image-frame">
-                    <img src="asset/img/login-system/frame1.png" alt="" srcset="">
-                    <img src="asset/img/login-system/frame2.png" alt="" srcset="">
-                    <img src="asset/img/login-system/frame3.png" alt="" srcset="">
-                    <img src="asset/img/login-system/frame4.png" alt="" srcset="">
-                    <img src="asset/img/login-system/frame5.png" alt="" srcset="">
-                    <img src="asset/img/login-system/frame6.png" alt="" srcset="">
-                </div>
-            </div>
-        </div>
-
-        <div class="aesthetic-design special-margin">
-            <div class="container">
-                <div class="row justify-content-between">
+                <div class="row mt-5">
                     <div class="col-md-5">
-                        <div class="aesthetic-gallery">
-                            <div class="aesthetic-item">
-                                <img src="asset/img/aesthethic/item1.png" width="100%" alt="" srcset="">
+                        <div class="image-about"></div>
+                    </div>
+                    <div class="col-md-5 about-content">
+                        <p class="txt-gray my-3 dark-item">Satria is a Web Developer who develop Binmas Online System
+                            for
+                            local police in Indonesia . Satria focused at Frontend Development , Reactjs is library that
+                            mostly used by satria </p>
+
+                        <div class="my-4 d-flex icon-container">
+                            <a href="https://github.com/satriaherman1/" rel="noreferrer" target="_blank"
+                                class="me-4 icon-not-changed  dark-item">
+                                <i class="fab fa-github  font-big"></i>
+                            </a>
+                            <a href="https://www.facebook.com/satria.herman.9465" rel="noreferrer" target="_blank"
+                                class="me-4 icon-not-changed  dark-item">
+                                <i class="fab fa-facebook  font-big"></i>
+                            </a>
+                            <a href="https://instagram.com/satria_clc?igshid=wjqlg9nc3937" rel="noreferrer"
+                                target="_blank" class="me-4 icon-not-changed  dark-item">
+                                <i class="fab fa-instagram  font-big"></i>
+                            </a>
+                            <a href="https://wa.me/+628976121070" rel="noreferrer" target="_blank"
+                                class="me-4 icon-not-changed  dark-item">
+                                <i class="fab fa-whatsapp  font-big"></i>
+                            </a>
+
+                        </div>
+                        <a href="doc/cv.pdf" download="Satria Herman" rel="noreferrer"
+                            class="d-inline-block button button-blue mt-2"><i class="fas fa-file-download me-2"></i>
+                            Download CV
+                        </a>
+                    </div>
+                </div>
+
+                <br>
+                <br>
+                <br>
+
+
+            </div>
+        </div>
+
+        <div class="education py-5 special-margin">
+            <div class="container px-3">
+                <h3 class="text-center">Education</h3>
+                <p class="text-center txt-gray dark-item">My Education Journey</p>
+
+                <div class="education py-4 d-flex justify-content-center">
+                    <div class="d-flex">
+                        <div class="progress-text">
+                            <div>
+                                <p class="font-big edu-name mb-0 font-bold">TK AL ISLAM 2</p>
+                                <p class="font-normal edu-duration text-gray">2008 - 2009</p>
                             </div>
-                            <div class="aesthetic-item">
-                                <img src="asset/img/aesthethic/item2.png" width="100%" alt="" srcset="">
+                            <div class="invisible">
+                                <p class="font-big edu-name mb-0 font-bold">TK AL ISLAM 2</p>
+                                <p class="font-normal edu-duration text-gray">2008 - 2009</p>
                             </div>
-                            <div class="aesthetic-item">
-                                <img src="asset/img/aesthethic/item3.png" width="100%" alt="" srcset="">
-                            </div>
-                            <div class="aesthetic-item">
-                                <img src="asset/img/aesthethic/item4.png" width="100%" alt="" srcset="">
+                            <div>
+                                <p class="font-big edu-name mb-0 font-bold">SMP N 1 Mlonggo</p>
+                                <p class="font-normal edu-duration text-gray">2015 - 2018</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6 d-flex align-items-center">
-                        <div>
-                            <br class="d-block d-md-none">
-                            <h1>
-                                Aesthetic <span class="txt-primary">Minimalist Design</span>
-                            </h1>
-                            <br>
-                            <p style="max-width: 500px;" class="txt-gray">Minimalist works of art that "less is more"
-                                with crystal
-                                acrylic design a vivid,
-                                anti-glare
-                                displays specially made for
-                                digital art</p>
+
+                        <div class="progress-box d-flex flex-column mx-4 mt-1 dark-item">
+                            <div class="bullet"></div>
+                            <div class="vertical-line"></div>
+                            <div class="bullet"></div>
+                            <div class="vertical-line"></div>
+                            <div class="bullet"></div>
+                            <div class="vertical-line"></div>
+                            <div class="bullet"></div>
+                            <div class="vertical-line"></div>
+                        </div>
+                        <div class="progress-text">
+                            <div class="invisible">
+                                <p class="font-big edu-name mb-0 font-bold">TK AL ISLAM 2</p>
+                                <p class="font-normal edu-duration text-gray">2008 - 2009</p>
+                            </div>
+                            <div>
+                                <p class="font-big edu-name mb-0 font-bold">SD N 4 Srobyong</p>
+                                <p class="font-normal edu-duration text-gray">2009 - 2015</p>
+                            </div>
+                            <div class="invisible">
+                                <p class="font-big edu-name mb-0 font-bold">TK AL ISLAM 2</p>
+                                <p class="font-normal edu-duration text-gray">2008 - 2009</p>
+                            </div>
+                            <div>
+                                <p class="font-big edu-name mb-0 font-bold">SMK N 3 Jepara</p>
+                                <p class="font-normal edu-duration text-gray">2018 - 2021</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="style-matters special-margin ">
-            <div class="container">
-                <div class="row justify-content-between flex-column-reverse flex-md-row">
-                    <div class="col-md-6 d-flex align-items-center">
-                        <div>
-                            <br class="d-block d-md-none">
-                            <h1>
-                                Your <span class="txt-primary">Style</span> Matters
-                            </h1>
-                            <br>
-                            <p style="max-width: 500px;" class="txt-gray">Minimalist works of art that "less is more"
-                                with crystal
-                                acrylic design a vivid,
-                                anti-glare
-                                displays specially made for
-                                digital art</p>
+        <div class="skill py-5 special-margin" id="skill">
+            <div class="container px-3">
+                <h2 class="text-center">Skills</h2>
+                <p class="text-center txt-gray dark-item">List of My Skills </p>
+                <br>
+                <div class="row justify-content-center">
+                    <div class="col-md-5 mt-4">
+                        <div class="d-flex align-items-center" onclick="checkCollapse(this)" data-bs-toggle="collapse"
+                            href="#skill1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <i class="fas fa-code me-3 icon-skill txt-blue dark-item"></i>
+                            <div>
+                                <p class="font-big font-bold mb-0">Frontend Development</p>
+                                <p class=" text-gray mb-0">6 months Experienced</p>
+                            </div>
+                            <i class="fas fa-chevron-down ms-auto me-2"></i>
+                        </div>
+
+                        <div class="detail-skills collapse" id="skill1">
+                            <div class=" py-3 ms-5 skill-icon-container">
+                                <br>
+                                <div class="d-flex justify-content-between">
+                                    <div class="d-flex flex-column">
+                                        <p class="mt-2 d-flex align-items-center">
+                                            <i class="fab fa-react dark-item special-spacing"></i>Reactjs
+                                        </p>
+                                        <p class="d-flex align-items-center">
+                                            <i class="fab fa-uikit  dark-item special-spacing"></i>Material UI
+                                        </p>
+                                        <p class="d-flex align-items-center">
+                                            <i class="fab fa-bootstrap dark-item special-spacing"></i>Bootstrap
+                                        </p>
+                                        <p class="d-flex align-items-center">
+                                            <i class="fab fa-html5 me-4 dark-item "></i>HTML
+                                        </p>
+                                        <p class="d-flex align-items-center">
+                                            <i class="fab fa-css3 me-3 dark-item "></i> CSS
+                                        </p>
+                                        <p class="d-flex align-items-center">
+                                            <i class="fab fa-js me-3 dark-item "></i> Javascript
+                                        </p>
+                                    </div>
+
+                                </div>
+
+                                <br>
+
+
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-5">
-                        <div class="style-matters-gallery">
-                            <div class="style-matters-item">
-                                <img src="asset/img/style-matter/frame1.png" width="100%" class="p-2 rounded-3" alt=""
-                                    srcset="">
+                    <div class="col-md-5 mt-4">
+                        <div class="d-flex align-items-center" onclick="checkCollapse(this)" data-bs-toggle="collapse"
+                            href="#skill2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <i class=" fas fa-laptop-code me-3 icon-skill txt-blue dark-item"></i>
+                            <div>
+                                <p class="font-big font-bold mb-0">Backend Development</p>
+                                <p class=" text-gray mb-0">6 months Experienced</p>
                             </div>
-                            <div class="style-matters-item">
-                                <img src="asset/img/style-matter/frame2.png" width="100%" class="p-2 rounded-3" alt=""
-                                    srcset="">
-                            </div>
-                            <div class="style-matters-item">
-                                <img src="asset/img/style-matter/frame3.png" width="100%" class="p-2 rounded-3" alt=""
-                                    srcset="">
-                            </div>
+                            <i class="fas fa-chevron-down ms-auto me-2"></i>
+                        </div>
+                        <div class="detail-skills collapse" id="skill2">
+                            <div class=" py-3 ms-5 skill-icon-container">
+                                <br>
+                                <div class="d-flex flex-column">
+                                    <p class="mt-2 d-flex align-items-center">
+                                        <i class="fab fa-laravel dark-item font-normal"></i>
+                                        <span class="ms-3">Laravel</span>
+                                    </p>
+                                    <p class="mt-2 d-flex align-items-center">
+                                        <i class="fas fa-fire-alt dark-item font-normal"></i>
+                                        <span class="ms-4">Codeigniter</span>
+                                    </p>
+                                    <p class="d-flex align-items-center">
+                                        <i class="fab fa-php dark-item font-normal"></i>
+                                        <span class="ms-3">PHP</span>
+                                    </p>
+                                    <p class="d-flex align-items-center">
+                                        <i class="fas fa-database dark-item"></i>
+                                        <span class="ms-4">PostgreSQL</span>
+                                    </p>
+                                    <p class="d-flex align-items-center">
+                                        <i class="fas fa-database dark-item"></i>
+                                        <span class="ms-4">MySQL</span>
+                                    </p>
 
+                                </div>
+                                <br>
+                            </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
 
-        <div class="seen py-5">
-            <div class="container">
-                <h1 class="text-center text-white"><span class="txt-primary">As Seen</span> on</h1>
-                <br>
-                <p class="text-center txt-gray">Framemory 5" - 21.5" NFT-frames display your NFTs from wallet to wall,
-                    from <br>
-                    desktop to desk, from virtuality to verity</p>
+        <!-- portfolio detail -->
 
-                <br>
-                <br>
+        <div class="behind-background invisible dark-item">
+        </div>
+        <div id="detailPort1" class="detail-port-box dark-item invisible">
+            <div class="head-port-box d-flex justify-content-between">
+                <p class="font-bold mb-1 font-monserrat">
+                    Binmas Online System
+                </p>
+                <button class="close-button dark-item" data-port="detailPort1">
+                    <i class="far fa-times-circle"></i>
+                </button>
+            </div>
+            <div class="detail-port-body">
+
+                <p class="font-normal font-bold">Description : </p>
+                <p class="font-normal">Binmas Online System is a <span class="font-bold">report</span> app for local
+                    police ( called
+                    bhabin )</p>
+                <p class="font-normal mb-2 font-bold">Type :</p>
+                <ul>
+                    <li class="font-normal">Software Development</li>
+                </ul>
+                <p class="font-normal font-bold">Feature :</p>
+                <p class="font-normal">
+                <ul>
+                    <li class="font-normal">Create , Read , Update , Delete report for bhabin</li>
+                    <li class="font-normal">Register Bujp and integrate bujp data from OSS API</li>
+                    <li class="font-normal">Monitoring Bhabin's Report by Location</li>
+                </ul>
+                </p>
+                <p class="font-normal mb-2 font-bold">
+                    Tech :
+                </p>
+                <ul>
+                    <li class="font-normal">Laravel 8</li>
+                    <li class="font-normal">Postgresql</li>
+                </ul>
+                <div class="detail-port-bottom">
+                    <a href="https://bos.polri.go.id" rel="noreferrer" target="_blank" class="view-site">Visit Site</a>
+                </div>
+            </div>
+        </div>
+        <div id="detailPort2" class="detail-port-box dark-item invisible">
+            <div class="head-port-box d-flex justify-content-between">
+                <p class="font-bold mb-1 font-monserrat">
+                    Skillfully
+                </p>
+                <button class="close-button dark-item" data-port="detailPort2">
+                    <i class="far fa-times-circle"></i>
+                </button>
+            </div>
+            <div class="detail-port-body">
+
+                <p class="font-normal font-bold">Description : </p>
+                <p class="font-normal">Skillfully is a <span class="font-bold">courses</span> app web based</p>
+                <p class="font-normal mb-2 font-bold">Type :</p>
+                <ul>
+                    <li class="font-normal">UI Design</li>
+                </ul>
+                <p class="font-normal font-bold">Responsibility :</p>
+                <p class="font-normal">
+                <ul>
+                    <li class="font-normal">Convert Layout from <a href="https://www.domestika.org/en">Domestika</a> to
+                        UI Design </li>
+                    <li class="font-normal">Redesign UI of converted layout</li>
+                    <li class="font-normal">Build reusable component for future needs</li>
+                    <li class="font-normal">Create small prototype for button</li>
+                </ul>
+                </p>
+                <p class="font-normal mb-2 font-bold">
+                    Tools :
+                </p>
+                <ul>
+                    <li class="font-normal">Adobe XD</li>
+                </ul>
+                <div class="detail-port-bottom">
+                    <a href="doc/Skillfully.xd" download="skillfully.xd" class="view-site">Download Project</a>
+                </div>
+            </div>
+        </div>
+        <div id="detailPort3" class="detail-port-box dark-item invisible">
+            <div class="head-port-box d-flex justify-content-between">
+                <p class="font-bold mb-1 font-monserrat">
+                    QisstPay
+                </p>
+                <button class="close-button dark-item" data-port="detailPort3">
+                    <i class="far fa-times-circle"></i>
+                </button>
+            </div>
+            <div class="detail-port-body">
+
+                <p class="font-normal font-bold">Description : </p>
+                <p class="font-normal">QisstPay is an <span class="font-bold">E-Commerce</span> that focused at fashion
+                </p>
+                <p class="font-normal mb-2 font-bold">Type :</p>
+                <ul>
+                    <li class="font-normal">Slicing UI</li>
+                </ul>
+                <p class="font-normal font-bold">Responsibility :</p>
+                <p class="font-normal">
+                <ul>
+                    <li class="font-normal">Convert UI Design from Figma to Reactjs </li>
+                    <li class="font-normal">Create Responsive Page</li>
+                    <li class="font-normal">Build Reusable Component in JSX</li>
+                </ul>
+                </p>
+                <p class="font-normal mb-2 font-bold">
+                    Tech :
+                </p>
+                <ul>
+                    <li class="font-normal">Reactjs</li>
+                    <li class="font-normal">Redux</li>
+                </ul>
+                <div class="detail-port-bottom">
+                    <a href="https://qisst-pay.web.app/" rel="noreferrer" target="_blank" class="view-site">Visit
+                        Site</a>
+                </div>
+            </div>
+        </div>
+        <!-- end portfolio detail -->
+        <div class="portfolio special-margin py-5" id="portfolio">
+            <div class="container">
+                <h3 class="text-center">Portfolio</h3>
+                <p class="text-center txt-gray dark-item">My Portfolio Below</p>
+
                 <div class="row">
-                    <div class="col-6 col-md-2 col-sm-6">
-                        <img src="asset/img/partner/wired.png" width="100%" style="max-width: 160px;" alt="" srcset="">
+                    <div class="col-md mt-3">
+                        <div class="portfolio-box dark-item">
+                            <div class="portfolio-image port1">
+                                <div class="port-info">
+                                    <div class="port-info-box" data-port="detailPort1">
+                                        <i class="fas fa-info"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
                     </div>
-                    <div class="col-6 col-md-2 col-sm-6">
-                        <img src="asset/img/partner/forbes.png" width="100%" style="max-width: 160px;" alt="" srcset="">
+                    <div class="col-md mt-3">
+                        <div class="portfolio-box dark-item">
+                            <div class="portfolio-image port2">
+                                <div class="port-info">
+                                    <div class="port-info-box" data-port="detailPort2">
+                                        <i class="fas fa-info"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
                     </div>
-                    <div class="col-6 col-md-2 col-sm-6">
-                        <img src="asset/img/partner/time.png" width="100%" style="max-width: 160px;" alt="" srcset="">
-                    </div>
-                    <div class="col-6 col-md-2 col-sm-6">
-                        <img src="asset/img/partner/wired.png" width="100%" style="max-width: 160px;" alt="" srcset="">
-                    </div>
-                    <div class="col-6 col-md-2 col-sm-6">
-                        <img src="asset/img/partner/forbes.png" width="100%" style="max-width: 160px;" alt="" srcset="">
-                    </div>
-                    <div class="col-6 col-md-2 col-sm-6">
-                        <img src="asset/img/partner/time.png" width="100%" style="max-width: 160px;" alt="" srcset="">
+                    <div class="col-md mt-3">
+                        <div class="portfolio-box dark-item">
+                            <div class="portfolio-image port3">
+                                <div class="port-info">
+                                    <div class="port-info-box" data-port="detailPort3">
+                                        <i class="fas fa-info"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
                     </div>
                 </div>
+            </div>
+        </div>
+
+
+
+        <div class="service py-4 special-margin" id="service">
+            <div class="container">
+                <h2 class="text-center">Service</h2>
+                <p class="text-center txt-gray dark-item">My Current Service</p>
+                <div class="service-slick">
+                    <div>
+                        <div
+                            class="service-content-box dark-item dark-box d-flex justify-content-between align-items-center">
+                            <div>
+                                <p class="font-bold font-big txt-blue font-monserrat dark-item dark-head">
+                                    Personal Web
+                                </p>
+                                <p class="font-normal">
+                                    Website for personal branding like portfolio website .
+                                </p>
+                            </div>
+                            <div>
+                                <img src="img/personal.svg" width="50" height="auto" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            class="service-content-box d-flex dark-item dark-box justify-content-between align-items-center">
+                            <div>
+                                <p class="font-bold font-big txt-blue font-monserrat dark-item dark-head">
+                                    Ecommerce
+                                </p>
+                                <p class="font-normal">
+                                    Including all features mostly e-commerce has
+                                </p>
+                            </div>
+                            <div>
+                                <img src="img/store.svg" width="50" height="auto" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            class="service-content-box dark-item dark-box port-3 d-flex justify-content-between align-items-center">
+                            <div class="dark-item dark-box">
+                                <p class="font-bold font-big txt-blue font-monserrat dark-item dark-head">
+                                    React Website
+                                </p>
+                                <p class="font-normal">
+                                    Website that using react as frontend library
+                                </p>
+                            </div>
+                            <div>
+                                <img src="img/react.png" width="50" height="auto" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            class="service-content-box dark-item dark-box port-4 d-flex justify-content-between align-items-center">
+                            <div>
+                                <p class="font-bold font-big txt-blue font-monserrat dark-item dark-head">
+                                    Dynamic Web
+                                </p>
+                                <p class="font-normal">
+                                    Dynamic Website that using database like SQL
+                                </p>
+                            </div>
+                            <div>
+                                <img src="img/website.svg" width="50" height="auto" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact dark-item" id="contact">
+            <div class="container">
+
+                <div class="contact-box">
+                    <h3>Get In Touch</h3>
+                    <p class="font-normal">Let's work together with me</p>
+
+                    <div class="d-flex">
+                        <div class="icon-contact-container" role="button" tabindex="0" onclick="redirectEmail()">
+                            <i class="fas fa-envelope text-white"></i>
+                        </div>
+                        <div class="icon-contact-container" role="button" tabindex="0" onclick="redirectPhone()">
+                            <i class="fas fa-phone text-white"></i>
+                        </div>
+                        <!-- <div class="icon-contact-container">
+                            <i class="fab fa-whatsapp text-white"></i>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br class="d-block d-md-none">
+        <br class="d-block d-md-none">
+
+        <div class="nav-small-content collapse dark-item d-md-none" id="navContent">
+
+            <div class="nav-icon">
+                <a href="#hero" class="home-nav active">
+                    <i class="fas fa-home"></i>
+                    <p class="mb-0 font-small mt-1">Home</p>
+                </a>
+                <a href="#about" class="about-nav">
+                    <i class="fas fa-address-card"></i>
+                    <p class="mb-0 font-small mt-1">About </p>
+                </a>
+                <a href="#skill" class="skill-nav">
+                    <i class="fas fa-clipboard"></i>
+                    <p class="mb-0 font-small mt-1">Skills </p>
+                </a>
+
+                <a href="#portfolio" class="portfolio-nav">
+                    <i class="fas fa-user"></i>
+                    <p class="mb-0 font-small mt-1">Portfolio </p>
+                </a>
+
+                <a href="#service" class="service-nav">
+                    <i class="fas fa-user-cog"></i>
+                    <p class="mb-0 font-small mt-1">Service </p>
+                </a>
+
 
 
             </div>
         </div>
 
-        <div class="contact-form">
-            <div class="row">
-                <div class="col-md-5 col-sm-12 position-relative">
-                    <div id="map"></div>
-                </div>
-                <div class="col-md-7 col-sm-12 special-margin my-4 my-md-0">
-                    <div class=" p-5">
-                        <h1>Contact Form</h1>
-                        <form action="" class="contact">
-                            <div class="d-flex flex-column mt-3">
-                                <label for="name">Name</label>
-                                <input type="text" onfocus="focus(this)" name="name" id="name">
-                            </div>
-                            <div class="d-flex flex-column mt-3">
-                                <label for="email">Email</label>
-                                <input type="text" onfocus="focus(this)" name="email" id="email">
-                            </div>
-                            <div class="d-flex flex-column mt-3">
-                                <label for="message">Message</label>
-                                <input type="text" onfocus="focus(this)" name="message" id="message">
-                            </div>
-
-                            <br>
-                            <button class="button-primary">Submit</button>
-                        </form>
-                    </div>
-                </div>
+        <div class="nav-small  dark-item py-3 px-4 d-block d-md-none" data-bs-toggle="collapse" href="#navContent"
+            role="button" aria-expanded="false" aria-controls="collapseExample">
+            <div class="d-flex justify-content-between">
+                <p class="font-bold mb-0">
+                    Satria
+                </p>
+                <button aria-label="navigation button" class="bottom-nav-button dark-item"
+                    style="background: none !important;">
+                    <i class="fas fa-bars"></i>
+                </button>
             </div>
         </div>
     </main>
 
-
-    <footer class="py-4">
-        <div class="container">
-            <div class="row justify-content-md-between">
-                <div class="col-md-3">
-                    <div class="logo mt-4">
-                        <img src="asset/img/logo.svg" alt="" srcset="">
-                    </div>
-                </div>
-                <div class="col-md-4 ">
-                    <br class="d-block d-md-none">
-                    <div class="d-flex mt-4 flex-column flex-lg-row align-items-lg-center">
-                        <p class="text-white txt-big mb-lg-0 me-3" style="white-space: nowrap; height: fit-content;">
-                            Ready
-                            to get started?</p>
-                        <button class="button-primary">Get Started</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class="container">
-            <div class="row">
-                <div class="col-md">
-                    <p class="txt-big text-white">Subscribe to our
-                        newsletter</p>
-                    <form action="" class="subscribe-form">
-                        <input type="text" name="email" id="email" placeholder="Email Address">
-                        <button>
-                            <img src="asset/img/icon/arrow-right.svg" width="100%" alt="" srcset="">
-                        </button>
-                    </form>
-                </div>
-                <div class="col-md-2 col-6 mt-4">
-                    <p class="txt-medium mb-0 text-white">Services</p>
-                    <div class="d-flex flex-column mt-3">
-                        <p class="txt-gray">Email Marketing</p>
-                        <p class="txt-gray">Campaigns</p>
-                        <p class="txt-gray">Branding</p>
-                        <p class="txt-gray">Offline</p>
-                    </div>
-                </div>
-
-                <div class="col-md-2 col-6 mt-4">
-                    <p class="txt-medium mb-0 text-white">About</p>
-                    <div class="d-flex flex-column mt-3">
-                        <p class="txt-gray">Our Story</p>
-                        <p class="txt-gray">Benefits</p>
-                        <p class="txt-gray">Team</p>
-                        <p class="txt-gray">Careers</p>
-                    </div>
-                </div>
-
-                <div class="col-md-2 mt-4">
-                    <p class="txt-medium mb-0 text-white">Helps</p>
-                    <div class="d-flex flex-column mt-3">
-                        <p class="txt-gray">FAQs</p>
-                        <p class="txt-gray">Contact Us</p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="row mt-4">
-                <div class="col-md-2">
-                    <p class="text-white">Terms & Conditions</p>
-                </div>
-                <div class="col-md-2">
-                    <p class="text-white">Privacy Policy</p>
-                </div>
-                <div class="col-md-1 ms-lg-auto d-flex justify-content-between">
-                    <a href="" class="text-white">
-                        <i class="fab fa-facebook-f text-white txt-medium"></i>
-                    </a>
-                    <a href="" class="text-white">
-                        <i class="fab fa-twitter text-white txt-medium"></i>
-                    </a>
-                    <a href="" class="text-white">
-                        <i class="fab fa-instagram text-white txt-medium"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap&libraries=&v=weekly" async></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.js"
-        integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baffle.js/0.3.6/baffle.min.js"
+        integrity="sha512-hu3ldLmTd/44nwMB6AzYMToQzA29HyteyZCzl40oZzTcVnEi9aaozi8kRgh4hZDNkA7Ko4RpeDmV7QDQ1u2EuA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="asset/js/dist/masonryan.min.js"></script>
-    <script src="asset/js/index.js"></script>
+    <!-- <script src="service-worker.js"></script> -->
+    <script src="js/index.js"></script>
+
+
 </body>
 
 </html>

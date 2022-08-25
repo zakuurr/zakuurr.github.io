@@ -1,0 +1,98 @@
+.dark{
+    background: var(--darkColor);
+    color: #fff !important;
+}
+
+nav.dark{
+    background: var(--darkColor);
+}
+
+.navbar-left.dark ul li.active::before{
+    background-color: #fff;
+}
+.navbar-left.dark ul li.active a{
+    color: #fff;
+}
+
+.navbar-left.dark ul li a:hover{
+    color: #fff;
+}
+nav.dark.active{
+    box-shadow: unset;
+}
+
+p.dark{
+    background: none;
+    color: #e9e9e9;
+}
+.dark.dark-head{
+    color: #fff !important;
+}
+
+.dark.contact{
+     background: #092249;
+}
+
+.dark.nav-small{
+     background: #192d4e;
+     border: none;
+}
+.dark#navContent{
+    background:  #213b64;
+    box-shadow: unset;
+}
+
+.dark#navContent .nav-icon a{
+    background: none;
+    color: #fff;
+}
+
+.dark#navContent .nav-icon a.active{
+    background: #1b3157 ;
+ 
+}
+
+.dark.dark-box{
+    background: #0e2f64;
+}
+
+.dark.dark-box.service-content-box{
+    box-shadow: unset;
+}
+
+.dark.nav-icon.active{
+    background: #193766 ;
+}
+
+/* portfolio */
+.dark.portfolio-box{
+    box-shadow: unset;
+    background: #2a5191  ;
+}
+
+.dark.detail-port-box{
+    background: #112b55 ;
+}
+
+.dark.behind-background{
+    background: var(--darkColor);
+    transition: ease-out .3s;
+    opacity: .9;
+}
+
+/* about */
+.dark.progress-box .vertical-line{
+    border-right: 2px dashed #fff;
+}
+
+/* end about */
+
+
+/* end portfolio */
+
+/* icon dark mode */
+.dark.side-icon{
+    box-shadow: unset;
+    background: #213b64;
+}
+/* end dark mode */

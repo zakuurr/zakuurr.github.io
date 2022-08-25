@@ -1,0 +1,87 @@
+:root{
+    --colorBlue : #1f5ed1;
+    --colorBlueHover : #3974e0;
+    --colorDarkBlue : #234177;
+    --colorBlueGray : #5f6c83;
+    --colorGray : #535353;
+    --darkColor : #13213a;
+}
+
+body{
+    font-family: 'Poppins' , sans-serif;
+    letter-spacing: .5px;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2 , h3 , h4 , h5 , h6{
+    font-family: 'Montserrat';
+}
+
+h1{
+    font-size: 32px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    line-height: 150%;
+}
+
+.font-monserrat{
+    font-family: 'Montserrat';
+}
+
+.fab , .fas{
+    transition: .2s;
+}
+
+.fab:hover , .fas:hover{
+    animation: rotateScale 1s 1;
+} 
+
+.slick-prev:before, .slick-next:before{
+   
+    color: var(--colorBlue) !important;
+}
+
+@keyframes rotateScale{
+    0%{
+        transform: scale(1);
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: scale(1.7);
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (min-width:768px) {
+    
+    h1{
+        font-size: 42px;
+    }
+    
+    h2{
+        font-size: 34px;
+    }
+    
+    h3{
+        font-size: 28px;
+    }
+    
+}

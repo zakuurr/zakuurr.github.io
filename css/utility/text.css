@@ -1,0 +1,35 @@
+.font-normal {
+    font-size: 14px;
+}
+
+.font-small{
+    font-size: 12px;
+}
+
+.font-big{
+    font-size: 18px;
+}
+
+.txt-blue{
+    color: var(--colorBlue);
+}
+
+.txt-dark-blue {
+    color: var(--colorDarkBlue);
+}
+
+.txt-blue-gray{
+    color: var(--colorBlueGray);
+}
+
+.txt-gray{
+    color: var(--colorGray);
+}
+
+.text-gray{
+    color: rgb(153, 153, 153);
+}
+
+.font-bold{
+    font-weight: 500;
+}

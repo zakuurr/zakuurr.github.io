@@ -1,0 +1,19 @@
+button.button , a.button {
+    border: none;
+    border-radius: 10px;
+    padding: 15px 25px;
+}
+
+a.button:hover{
+    color: #fff;
+}
+
+
+.button-blue{
+    background: var(--colorBlue);
+    color: #fff;
+}
+
+.button-blue:hover{
+    background: var(--colorBlueHover);
+}

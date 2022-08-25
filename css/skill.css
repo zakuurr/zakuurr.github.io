@@ -1,0 +1,8 @@
+.icon-skill{
+    font-size: 28px;
+}
+
+.skill-icon-container i{
+    font-size: 23px;
+    color: var(--colorBlue);
+}

@@ -1,0 +1,36 @@
+.service-content-box{
+    padding: 20px 20px;
+    border-radius: 10px;
+    background: #fff;
+    width: 90%;
+    margin: 20px auto;
+    box-shadow: 0px 0px 19px #e6e6e6;
+}
+
+.service-content-box div:first-child p{
+    max-width: 170px;
+}
+
+.service-content-box div:last-child {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    border-radius: 8px;
+    background: #f0f0f0;
+}
+.service-content-box.port-3 div:last-child , .service-content-box.port-4 div:last-child {
+    background: #eaf4ff;
+}
+
+@media screen and (min-width : 768px) {
+    .service-content-box div:last-child {
+        padding: 14px;
+    }
+
+    .service-content-box{
+        padding: 30px 29px;
+        width: 85%;
+    }
+}

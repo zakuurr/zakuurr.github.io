@@ -1,0 +1,78 @@
+.image-about{
+    background: url('../img/me.jpg');
+    background-size: cover;
+    background-position: center center;
+    width: 290px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bullet{
+    width: 15px;
+    height: 15px;
+    background: var(--colorBlue);
+    border-radius: 100px;
+}
+
+.vertical-line{
+    height: 40px;
+    width: 1px;
+    border-right: 2px dashed rgb(143, 148, 175);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.edu-name{
+    font-size: 14px;
+}
+
+p.edu-duration{
+    font-size: 12px;;
+}
+
+.about-content{
+    text-align: center;
+}
+
+.about-content p{
+    padding: 1px 2.3px;
+}
+
+.icon-container{
+    justify-content: center;
+}
+
+.icon-not-changed{
+    color: #333;
+}
+
+.special-spacing{
+    margin-right: 22px;
+}
+
+.icon-not-changed:hover{
+    color: #333;
+}
+
+@media screen and (min-width : 768px) {
+    .about-content{
+        text-align: left;
+    }
+    p.edu-name{
+        font-size: 16px;
+    }
+    p.edu-duration{
+        font-size: 14px;
+        font-family: 'Montserrat';
+    }
+
+    .icon-container{
+        justify-content: unset;
+    }
+
+    .vertical-line{
+        height: 51px;
+    }
+}

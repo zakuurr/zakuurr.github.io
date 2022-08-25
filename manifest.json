@@ -1,0 +1,58 @@
+{
+    "name" : "satria-portfolio",
+    "short_name" : "satria",
+    "start_url" : "/",
+    "display" : "standalone",
+    "theme_color" : "#1f5ed1",
+    "orientation" : "portrait",
+    "scope" : "/",
+    "background_color" : "#ffffff",
+    "icons" : [
+        {
+            "src"  : "img/icon72x72.png",
+            "type" : "image/png" , 
+            "sizes" : "72x72"
+        },
+        {
+            "src"  : "img/icon96x96.png",
+            "type" : "image/png" , 
+            "sizes" : "96x96"
+        },
+        {
+            "src"  : "img/icon128x128.png",
+            "type" : "image/png" , 
+            "sizes" : "128x128"
+        },
+        {
+            "src"  : "img/icon144x144.png",
+            "type" : "image/png" , 
+            "sizes" : "144x144"
+        },
+        {
+            "src"  : "img/icon152x152.png",
+            "type" : "image/png" , 
+            "sizes" : "152x152"
+        },
+        {
+            "src"  : "img/icon192x192.png",
+            "type" : "image/png" , 
+            "sizes" : "192x192"
+        },
+        {
+            "src"  : "img/icon384x384.png",
+            "type" : "image/png" , 
+            "sizes" : "384x384"
+        },
+        {
+            "src"  : "img/icon512x512.png",
+            "type" : "image/png" , 
+            "sizes" : "512x512"
+        },
+        {
+            "src"  : "img/maskable-icon.png",
+            "type" : "image/png" , 
+            "sizes" : "128x128",
+            "purpose" : "maskable"
+        }
+    ]
+}
