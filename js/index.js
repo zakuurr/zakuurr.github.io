@@ -189,19 +189,19 @@ window.onload = function(){
 }
 const redirectWa = () => {
     window.open(
-        'https://wa.me/+628976121070?text=Hi , i am interesting to do a job for you . can we do a project together?',
+        'https://wa.me/+6285603369640?text=Hi , i am interesting to do a job for you . can we do a project together?',
         '_blank'
     )
 }
 const redirectEmail = () => {
     window.open(
-        'https://muhammadsatriaherman@gmail.com',
+        'https://ezakurnia50@gmail.com',
         '_blank'
     )
 }
 const redirectPhone = () => {
     window.open(
-        'tel:+628976121070',
+        'tel:+6285603369640',
         '_blank'
     )
 }
