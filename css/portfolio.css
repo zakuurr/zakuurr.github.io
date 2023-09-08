@@ -44,14 +44,18 @@
 }
 
 .port1{
-    background-image: url('../img/bos.svg');
+    background-image: url('../img/logoerna.png');
 }
 
 .port2{
-    background-image: url('../img/skillfully.png');
+    background-image: url('../img/AGEn.jfif');
 
 }
 .port3{
+    background-image: url('../img/qisst-pay.svg');
+
+}
+.port4{
     background-image: url('../img/qisst-pay.svg');
 
 }
